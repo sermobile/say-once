@@ -28,6 +28,11 @@
 
 Книга строится снизу вверх: сначала реальные примеры неудачной коммуникации, потом извлечение принципов. В `bot/` лежит Telegram-бот для сбора примеров на ходу.
 
+### Как писать книгу вместе с ИИ-агентом
+
+- [`AGENTS.md`](AGENTS.md) — инструкции для агентов: структура, шаблоны, тон, что можно и что нельзя.
+- [`WRITING_WITH_CLAUDE.md`](WRITING_WITH_CLAUDE.md) — типовой воркфлоу и пример диалога с Claude.
+
 ---
 
 ## English
@@ -50,6 +55,11 @@ This book is about the skill of delivering information so the receiver can act i
 ### How it grows
 
 The book is built bottom-up: real examples of failed communication first, then principles extracted from them. The `bot/` directory contains a Telegram bot for collecting examples on the go.
+
+### Writing with an AI agent
+
+- [`AGENTS.md`](AGENTS.md) — agent instructions: structure, templates, tone, dos and don'ts (in Russian).
+- [`WRITING_WITH_CLAUDE.md`](WRITING_WITH_CLAUDE.md) — typical workflow and sample dialogue with Claude (in Russian).
 
 ---
 
