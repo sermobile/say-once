@@ -1,7 +1,7 @@
 # say-once
 
 > Книга о том, как сказать один раз — и быть понятым.
-> A book about delivering information so it doesn't need to be asked twice.
+> Say it once. Be understood.
 
 [Русский](#русский) · [English](#english)
 
