@@ -1,6 +1,6 @@
 # say-once
 
-> Книга о том, как передавать информацию так, чтобы её не пришлось переспрашивать.
+> Книга о том, как сказать один раз — и быть понятым.
 > A book about delivering information so it doesn't need to be asked twice.
 
 [Русский](#русский) · [English](#english)
