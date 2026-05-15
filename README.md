@@ -53,6 +53,7 @@
 - [`map.md`](map.md) — карта правил: семейства, пары «отправитель ↔ получатель», архетипы
 - [`examples/`](examples/) — реальные кейсы из жизни, на которых выведены правила
 - [`thoughts.md`](thoughts.md) — необработанные мысли и заметки
+- [`references.md`](references.md) — смежное чтение: книги, статьи, каналы по теме
 
 ### Как пополняется
 
@@ -111,6 +112,7 @@ In the agent world, these rules stop being good manners — without them, the ag
 - [`map.md`](map.md) — rule map: families, sender ↔ receiver pairs, archetypes (in Russian)
 - [`examples/`](examples/) — real-life cases from which the rules are derived
 - [`thoughts.md`](thoughts.md) — raw thoughts and notes
+- [`references.md`](references.md) — related reading: books, articles, channels (in Russian)
 
 ### How it grows
 
