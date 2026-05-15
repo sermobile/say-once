@@ -21,6 +21,7 @@
 
 - [`preface.md`](preface.md) — предисловие
 - [`rules.md`](rules.md) — свод правил, пополняется по мере накопления примеров
+- [`map.md`](map.md) — карта правил: семейства, пары «отправитель ↔ получатель», архетипы
 - [`examples/`](examples/) — реальные кейсы из жизни, на которых выведены правила
 - [`thoughts.md`](thoughts.md) — необработанные мысли и заметки
 
@@ -49,6 +50,7 @@ This book is about the skill of delivering information so the receiver can act i
 
 - [`preface.md`](preface.md) — preface (in Russian)
 - [`rules.md`](rules.md) — accumulated rules, grows as new examples come in
+- [`map.md`](map.md) — rule map: families, sender ↔ receiver pairs, archetypes (in Russian)
 - [`examples/`](examples/) — real-life cases from which the rules are derived
 - [`thoughts.md`](thoughts.md) — raw thoughts and notes
 
