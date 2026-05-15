@@ -17,6 +17,35 @@
 
 Эта книга — про навык передавать информацию так, чтобы получатель мог действовать сразу и правильно. Неважно кто это: коллега, пользователь интерфейса или агент.
 
+### Где работают эти правила
+
+Правила одни и те же. Контекстов — три:
+
+```
+                  ┌──────────────────────────┐
+                  │         ПРАВИЛА          │
+                  └─────────────┬────────────┘
+                                │
+       ┌────────────────────────┼────────────────────────┐
+       │                        │                        │
+       ▼                        ▼                        ▼
+
+  ЧЕЛОВЕК ↔ ЧЕЛОВЕК       ЧЕЛОВЕК ↔ UI            ЧЕЛОВЕК ↔ АГЕНТ
+  ─────────────────       ─────────────           ─────────────────
+  чат, встречи,           сообщения               промпты,
+  письма, задачи          об ошибках,             задачи для агента,
+                          формы,                  инструкции,
+                          уведомления             контексты
+```
+
+Правила не меняются. Меняется **цена ошибки**:
+
+- **Человек ↔ человек:** переспрос, переделка, потеря времени. Привычно, терпимо.
+- **Человек ↔ UI:** пользователь не понял, не нашёл, ушёл. Терпимо до конкурента.
+- **Человек ↔ агент:** агент не переспросит. Он сделает не то, и ты узнаешь по результату.
+
+В агентном мире эти правила перестают быть «хорошим тоном» — без них агент просто не выдаст нужный результат.
+
 ### Как устроен репозиторий
 
 - [`preface.md`](preface.md) — предисловие
@@ -45,6 +74,35 @@ People have always conveyed information imprecisely — and always paid for it: 
 Today, tasks are increasingly performed by AI agents. They don't ask again — they just do. And the cost of an imprecise formulation has sharply increased.
 
 This book is about the skill of delivering information so the receiver can act immediately and correctly. It doesn't matter who they are: a colleague, a user of an interface, or an agent.
+
+### Where these rules apply
+
+The rules are the same. The contexts are three:
+
+```
+                  ┌──────────────────────────┐
+                  │          RULES           │
+                  └─────────────┬────────────┘
+                                │
+       ┌────────────────────────┼────────────────────────┐
+       │                        │                        │
+       ▼                        ▼                        ▼
+
+   HUMAN ↔ HUMAN            HUMAN ↔ UI              HUMAN ↔ AGENT
+   ──────────────           ───────────             ───────────────
+   chat, meetings,          error messages,         prompts,
+   emails, tasks            forms,                  task briefs,
+                            notifications           instructions,
+                                                    context windows
+```
+
+The rules don't change. What changes is the **cost of breaking them**:
+
+- **Human ↔ human:** asking again, redoing, lost time. Familiar, tolerable.
+- **Human ↔ UI:** the user doesn't get it, doesn't find it, leaves. Tolerable until a competitor.
+- **Human ↔ agent:** the agent won't ask again. It will do the wrong thing, and you'll learn about it from the result.
+
+In the agent world, these rules stop being good manners — without them, the agent simply won't deliver what you need.
 
 ### Repository layout
 
