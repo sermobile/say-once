@@ -15,7 +15,7 @@ The book is about delivering information so it doesn't need to be asked twice. N
 - **1. Ready-to-use form.** Not raw data — something the receiver can act on. Do the "last mile" that's cheap for you (context in your head) and expensive for them.
 - **3. Concrete values, not just the error type.** Not "file not found" but "file not found: /etc/app/config.yaml".
 - **8. Add context.** The receiver only sees the message. Why you're sending it lives in your head until you say so.
-- **15. Link text is information, not a placeholder.** Not "here" but "the paper *Attention is all you need*".
+- **15. Link text is information, not a placeholder.** Not "[here](../ru/rules.md#правило-15-текст-ссылки--это-информация-а-не-плейсхолдер)" but "[rule 15 in `ru/rules.md`](../ru/rules.md#правило-15-текст-ссылки--это-информация-а-не-плейсхолдер)". Both links point to the same place, but the first one tells the reader nothing until they click.
 
 ### Setting a task
 
