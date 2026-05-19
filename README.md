@@ -51,6 +51,7 @@
 - [`preface.md`](preface.md) — предисловие
 - [`rules.md`](rules.md) — свод правил, пополняется по мере накопления примеров
 - [`map.md`](map.md) — карта правил: семейства, пары «отправитель ↔ получатель», архетипы
+- [`limits.md`](limits.md) — когда правила не работают: шесть семейств ограничений
 - [`examples/`](examples/) — реальные кейсы из жизни, на которых выведены правила
 - [`thoughts.md`](thoughts.md) — необработанные мысли и заметки
 - [`references.md`](references.md) — смежное чтение: книги, статьи, каналы по теме
@@ -110,6 +111,7 @@ In the agent world, these rules stop being good manners — without them, the ag
 - [`preface.md`](preface.md) — preface (in Russian)
 - [`rules.md`](rules.md) — accumulated rules, grows as new examples come in
 - [`map.md`](map.md) — rule map: families, sender ↔ receiver pairs, archetypes (in Russian)
+- [`limits.md`](limits.md) — when the rules don't apply: six families of limits (in Russian)
 - [`examples/`](examples/) — real-life cases from which the rules are derived
 - [`thoughts.md`](thoughts.md) — raw thoughts and notes
 - [`references.md`](references.md) — related reading: books, articles, channels (in Russian)
