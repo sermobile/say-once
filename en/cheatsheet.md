@@ -12,15 +12,15 @@ The book is about delivering information so it doesn't need to be asked twice. N
 
 ### What goes in one message
 
-- **1. Ready-to-use form.** Not raw data — something the receiver can act on. Do the "last mile" that's cheap for you (context in your head) and expensive for them.
+- **1. Ready-to-use form.** Not raw data — something the receiver can act on (like this cheatsheet versus "go read all of [`rules.md`](../ru/rules.md)"). Do the "last mile" that's cheap for you (context in your head) and expensive for them.
 - **3. Concrete values, not just the error type.** Not "file not found" but "file not found: /etc/app/config.yaml".
-- **8. Add context.** The receiver only sees the message. Why you're sending it lives in your head until you say so.
+- **8. Add context.** The receiver only sees the message. Why you're sending it lives in your head until you say so. *(The "this file is for you if…" block at the top is rule 8 in action — without it, you'd have no idea who this cheatsheet is for.)*
 - **15. Link text is information, not a placeholder.** Not "[here](../ru/rules.md#правило-15-текст-ссылки--это-информация-а-не-плейсхолдер)" but "[rule 15 in `ru/rules.md`](../ru/rules.md#правило-15-текст-ссылки--это-информация-а-не-плейсхолдер)". Both links point to the same place, but the first one tells the reader nothing until they click.
 
 ### Setting a task
 
 - **4. All task parameters.** The executor shouldn't have to guess. If a parameter is unknown — say so explicitly.
-- **6. With time to act.** A notification that arrives when action is no longer possible isn't a notification — it's a statement of fact.
+- **6. With time to act.** A notification that arrives when action is no longer possible isn't a notification — it's a statement of fact. *(Case: [20 people at a restricted facility gate](../ru/examples/restricted_facility.md) learned about 24-hour passes the moment they arrived.)*
 - **7. Ask about obstacles before launching.** One question: "is there anything that might block this?"
 - **17. Channel and format are the receiver's call.** Ask: "how do you prefer to receive this — meeting, ticket, voice note?" Don't pick unilaterally.
 
@@ -37,9 +37,9 @@ The book is about delivering information so it doesn't need to be asked twice. N
 
 ### Communication systems (the rules of the game)
 
-- **9. Shared vocabulary at the boundary of responsibilities.** The same word must not mean different things in neighboring teams.
+- **9. Shared vocabulary at the boundary of responsibilities.** The same word must not mean different things in neighboring teams. *(For example, "done": to the developer — deployed; to QA — passed the checks; to product — in users' hands.)*
 - **10. Protocol instead of conversation.** For recurring interactions — fixed states and transitions (like "target identified → engage → shot").
-- **11. Format is a contract over time.** Don't change the format silently — the receiver has a pipeline built on it.
+- **11. Format is a contract over time.** Don't change the format silently — the receiver has a pipeline built on it. *(Case: [a sudden switch from CSV to TXT](../ru/examples/format_stability.md) broke someone else's scripts.)*
 - **12. Words → structure when unambiguity matters.** Fields, enums, schemas — not "add some info about the source."
 - **18. A contract changes explicitly when circumstances change.** Don't cling to a stale contract, but don't retreat from it silently either. External changes (regulation, API, market) count.
 
