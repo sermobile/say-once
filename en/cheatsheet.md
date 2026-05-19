@@ -4,6 +4,8 @@
 
 The book is about delivering information so it doesn't need to be asked twice. Numbers below match [`../ru/rules.md`](../ru/rules.md) (full rules are still in Russian for now).
 
+> Rule numbers are canonical — they appear in `rules.md` in the order they were discovered. The grouping here is by meaning, so numbers within each section won't run consecutively (e.g. "1, 3, 8, 15"). Related rules sit together instead of being scattered across a flat list of 18.
+
 ---
 
 ## 18 rules
